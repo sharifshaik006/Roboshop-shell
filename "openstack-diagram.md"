@@ -1,0 +1,9 @@
+```mermaid
+graph TD
+    A[Dashboard] -->|Uses| B[Identity API (Keystone)]
+    B -->|Uses| C[Compute API (Nova)]
+    B -->|Uses| D[Networking API (Neutron)]
+    B -->|Uses| E[Block API (Cinder)]
+    B -->|Uses| F[Object API (Swift)]
+    B -->|Uses| G[Image API (Glance)]
+    B -->|Uses| H[Orchestration (Heat)]
